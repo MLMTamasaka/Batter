@@ -1,0 +1,2 @@
+# Batter
+Batter game specifications.
