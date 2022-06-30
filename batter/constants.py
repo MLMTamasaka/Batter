@@ -1,5 +1,4 @@
 from game.casting.color import Color
-from game.casting.stats import Stats
 
 # -------------------------------------------------------------------------------------------------- 
 # GENERAL GAME CONSTANTS
@@ -22,7 +21,7 @@ FIELD_LEFT = 0
 FIELD_RIGHT = SCREEN_WIDTH
 
 # FONT
-FONT_FILE = "batter/assets/fonts/{zorque}.otf"
+FONT_FILE = "batter/assets/fonts/zorque.otf"
 FONT_SMALL = 32
 FONT_LARGE = 48
 
@@ -86,9 +85,9 @@ HUD_MARGIN = 15
 LEVEL_GROUP = "level"
 LIVES_GROUP = "lives"
 SCORE_GROUP = "score"
-LEVEL_FORMAT = f"LEVEL: {Stats.get_level(self)}"
-LIVES_FORMAT = f"LIVES: {Stats.get_lives(self)}"
-SCORE_FORMAT = f"SCORE: {Stats.get_score(self)}"
+LEVEL_FORMAT = "LEVEL: {}"
+LIVES_FORMAT = "LIVES: {}"
+SCORE_FORMAT = "SCORE: {}"
 
 # BALL
 BALL_GROUP = "balls"
